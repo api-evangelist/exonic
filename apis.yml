@@ -1,7 +1,24 @@
 aid: exonic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exonic.png
 name: Exonic
-description: Exonic is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Exonic is an AI-driven biotechnology company building artificial intelligence for
+  precision gene therapy. The company applies machine learning to the design and development of
+  therapeutic gene treatments, operating in the therapeutics and life-sciences space rather than as
+  a developer-facing API provider. It was surfaced as a portfolio company of Y Combinator and added
+  to the API Evangelist network. As of this enrichment pass Exonic publishes a company/marketing
+  website (exonic.ai) but no public developer API, OpenAPI specification, SDKs, or developer portal
+  were found, so no API artifacts were generated (no fabrication).
 url: https://raw.githubusercontent.com/api-evangelist/exonic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,30 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://www.exonic.ai
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Gene Therapy
+- Artificial Intelligence
+- Machine Learning
+- Therapeutics
+- Life Sciences
+- Healthcare
+common:
+- type: Website
+  url: https://www.exonic.ai
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
