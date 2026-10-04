@@ -46,7 +46,7 @@ tags:
 - Biotechnology
 - Gene Therapy
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Therapeutics
 - Life Sciences
 - Healthcare
@@ -59,6 +59,7 @@ tags_raw:
 - Therapeutics
 - Life Sciences
 - Healthcare
+- Machine-Learning
 common:
 - type: Website
   url: https://www.exonic.ai
