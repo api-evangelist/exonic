@@ -40,7 +40,7 @@ x-tier-reason: portfolio-lead
 x-website: https://www.exonic.ai
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Biotechnology
@@ -61,6 +61,8 @@ tags_raw:
 - Healthcare
 - Machine-Learning
 common:
+- url: https://www.exonic.ai/blog/
+  type: Blog
 - type: Website
   url: https://www.exonic.ai
 apis: []
