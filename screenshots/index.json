@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "exonic",
+    "captured_at": "2026-10-11T185441",
+    "source_url": "https://www.exonic.ai",
+    "source_type": "Website",
+    "file": "exonic-2026-10-11T185441.png",
+    "bytes": 189581,
+    "capture": "playwright-local"
+  }
+]
